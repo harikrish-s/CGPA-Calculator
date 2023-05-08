@@ -15,5 +15,6 @@ for i in range(n):
     ccgp_sum+=ccgp
 try:
     cgpa = round(ccgp_sum/ccred_sum,2)
+    st.write(cgpa)
 except:
     pass
