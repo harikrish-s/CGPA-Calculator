@@ -6,7 +6,7 @@ ccgp_sum = 0
 n = st.number_input("Number of Subjects: ", min_value=1, max_value= 100, value=1)
 st.divider()
 
-for i in range(n):
+for i in range(n+1):
     ccreds = st.number_input("Number of Credits for Subject "+str(i+1)+": ", min_value=0, max_value= 10, value=0)
     l_grade = st.selectbox("Letter Grade of Subject "+str(i+1)+": ",("O", "A+", "A", "B+", "B", "RA"))
     st.divider()
